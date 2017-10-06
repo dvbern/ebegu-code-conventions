@@ -1,0 +1,1 @@
+# ebegu-code-conventions
