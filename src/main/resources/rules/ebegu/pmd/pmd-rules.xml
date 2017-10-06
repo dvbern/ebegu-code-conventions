@@ -1,2 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<profile><name>DV Bern Default</name><language>java</language><rules><rule><repositoryKey>common-java</repositoryKey><key>DuplicatedBlocks</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>common-java</repositoryKey><key>InsufficientBranchCoverage</key><priority>MAJOR</priority><parameters><parameter><key>minimumBranchCoverageRatio</key><value>65.0</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>AssignmentInSubExpressionCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ClassCyclomaticComplexity</key><priority>MAJOR</priority><parameters><parameter><key>max</key><value>200</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>ClassVariableVisibilityCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>CommentedOutCodeLine</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>EmptyStatementUsageCheck</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ForLoopCounterChangedCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>HiddenFieldCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>LabelsShouldNotBeUsedCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>MethodCyclomaticComplexity</key><priority>MAJOR</priority><parameters><parameter><key>Threshold</key><value>10</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>MissingDeprecatedCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ModifiersOrderCheck</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ObjectFinalizeCheck</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ObjectFinalizeOverridenCallsSuperFinalizeCheck</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>ObjectFinalizeOverridenCheck</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>RedundantThrowsDeclarationCheck</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>RightCurlyBraceStartLineCheck</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S00100</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[a-z][a-zA-Z0-9]*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00101</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[A-Z][a-zA-Z0-9]*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00107</key><priority>MAJOR</priority><parameters><parameter><key>max</key><value>7</value></parameter><parameter><key>constructorMax</key><value>7</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00108</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S00112</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S00114</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[A-Z][a-zA-Z0-9]*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00115</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00116</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[a-z][a-zA-Z0-9]*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00117</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[a-z][a-zA-Z0-9]*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00119</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[A-Z]$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00120</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>^[a-z]+(\.[a-z][a-z0-9]*)*$</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S00122</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S106</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1065</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1066</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1067</key><priority>MAJOR</priority><parameters><parameter><key>max</key><value>3</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1068</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1118</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1125</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1126</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1132</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1133</key><priority>INFO</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1134</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1135</key><priority>INFO</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1141</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1143</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1145</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1147</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1148</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1149</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1150</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1151</key><priority>MAJOR</priority><parameters><parameter><key>max</key><value>5</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1153</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1155</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1157</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1158</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1160</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1161</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1163</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1165</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1166</key><priority>CRITICAL</priority><parameters><parameter><key>exceptions</key><value>java.lang.InterruptedException, java.lang.NumberFormatException, java.text.ParseException, java.net.MalformedURLException</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1168</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1170</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1171</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1172</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1174</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1175</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1181</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1182</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1185</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1186</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1188</key><priority>MAJOR</priority><parameters><parameter><key>Max</key><value>20</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1190</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1191</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1192</key><priority>MINOR</priority><parameters><parameter><key>threshold</key><value>3</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1193</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1194</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1195</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1197</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1199</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1201</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1206</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1210</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1213</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1214</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1215</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1217</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1219</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1220</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1221</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1223</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1226</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1244</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S128</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1301</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1312</key><priority>MINOR</priority><parameters><parameter><key>format</key><value>LOG(?:GER)?</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1313</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1314</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1317</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1319</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S134</key><priority>MAJOR</priority><parameters><parameter><key>max</key><value>3</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S135</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1444</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1452</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1479</key><priority>MAJOR</priority><parameters><parameter><key>maximum</key><value>30</value></parameter></parameters></rule><rule><repositoryKey>squid</repositoryKey><key>S1481</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1596</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1598</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1602</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1611</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1700</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1764</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1844</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1849</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1850</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1860</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1862</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1872</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1905</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1948</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S1994</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2055</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2061</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2065</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2066</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2068</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2077</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2092</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2094</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2109</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2110</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2111</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2114</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2116</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2118</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2122</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2123</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2127</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2130</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2131</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2133</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2134</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2151</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2153</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2154</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2157</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2160</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2165</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2166</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2167</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2175</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2176</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2178</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2183</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2184</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2200</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2204</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2225</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2226</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2230</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2232</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2235</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2236</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2250</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2251</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2252</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2254</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2272</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2273</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2274</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2275</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2276</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2277</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2326</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2386</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2388</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2437</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2438</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2440</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2441</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2442</key><priority>BLOCKER</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S2447</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>S888</key><priority>CRITICAL</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>SwitchLastCaseIsDefaultCheck</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>UnusedPrivateMethod</key><priority>MAJOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>UselessImportCheck</key><priority>MINOR</priority><parameters/></rule><rule><repositoryKey>squid</repositoryKey><key>UselessParenthesesCheck</key><priority>MAJOR</priority><parameters/></rule></rules></profile>
+<?xml version="1.0"?>
+<ruleset name="DVBern Default Ruleset (Kitadmin)"
+		 xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+	<description>
+		DVBern Default Ruleset mit kleineren Modifikationen
+	</description>
+
+	<rule ref="rulesets/java/unnecessary.xml/UnusedNullCheckInEquals">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/StringInstantiation">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/ConstructorCallsOverridableMethod">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/AvoidCatchingNPE">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/AvoidRethrowingException">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/ReplaceEnumerationWithIterator">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/optimizations.xml/AvoidArrayLoops">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/unusedcode.xml/UnusedFormalParameter">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptySwitchStatements">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/ClassCastExceptionWithToArray">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/AvoidThrowingNullPointerException">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/unusedcode.xml/UnusedPrivateField">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/CompareObjectsWithEquals">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/UseIndexOfChar">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/BigIntegerInstantiation">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/FinalFieldCouldBeStatic">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/braces.xml/IfStmtsMustUseBraces">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/SuspiciousEqualsMethodName">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/InstantiationToGetClass">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/SuspiciousHashcodeMethodName">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/coupling.xml/LooseCoupling">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/unusedcode.xml/UnusedLocalVariable">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/UnnecessaryCaseChange">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptySynchronizedBlock">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/SingularField">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/unusedcode.xml/UnusedPrivateMethod">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/CloseResource">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/AvoidCatchingThrowable">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptyWhileStmt">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/CollapsibleIfStatements">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/unnecessary.xml/UselessOperationOnImmutable">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/unnecessary.xml/UselessOverridingMethod">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/unusedcode.xml/UnusedModifier">
+		<priority>5</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/PreserveStackTrace">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/optimizations.xml/UseArraysAsList">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/AvoidThrowingRawExceptionTypes">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptyIfStmt">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/EqualsNull">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/BrokenNullCheck">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/logging-jakarta-commons.xml/UseCorrectExceptionLogging">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/InefficientStringBuffering">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/sunsecure.xml/ArrayIsStoredDirectly">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/finalizers.xml/FinalizeOverloaded">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/ClassNamingConventions">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/controversial.xml/DontImportSun">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/imports.xml/DontImportJavaLang">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/MissingStaticMethodInNonInstantiatableClass">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/StringBufferInstantiationWithChar">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/optimizations.xml/UseArrayListInsteadOfVector">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/braces.xml/WhileLoopsMustUseBraces">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/StringToString">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/SimplifyConditional">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/ReplaceVectorWithList">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/codesize.xml/NcssMethodCount">
+		<priority>3</priority>
+		<properties>
+			<property name="minimum" value="50"/>
+		</properties>
+	</rule>
+	<rule ref="rulesets/java/logging-java.xml/AvoidPrintStackTrace">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/MethodWithSameNameAsEnclosingClass">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/SuspiciousConstantFieldName">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/codesize.xml/NcssTypeCount">
+		<priority>3</priority>
+		<properties>
+			<property name="minimum" value="800"/>
+		</properties>
+	</rule>
+	<rule ref="rulesets/java/design.xml/AvoidInstanceofChecksInCatchClause">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptyFinallyBlock">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/IntegerInstantiation">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/naming.xml/AvoidDollarSigns">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/AvoidAssertAsIdentifier">
+		<priority>3</priority>
+	</rule>
+	<!-- Sehr nuetzlich zum Debugging
+	<rule ref="rulesets/java/design.xml/UnnecessaryLocalBeforeReturn">
+		<priority>3</priority>
+	</rule>
+	-->
+	<rule ref="rulesets/java/finalizers.xml/AvoidCallingFinalize">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/BooleanInstantiation">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/UnconditionalIfStatement">
+		<priority>2</priority>
+	</rule>
+	<rule ref="rulesets/java/clone.xml/CloneThrowsCloneNotSupportedException">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/ReplaceHashtableWithMap">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/basic.xml/AvoidDecimalLiteralsInBigDecimalConstructor">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/braces.xml/ForLoopsMustUseBraces">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptyTryBlock">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/SignatureDeclareThrowsException">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/finalizers.xml/EmptyFinalizer">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/design.xml/IdempotentOperations">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strictexception.xml/ExceptionAsFlowControl">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/empty.xml/EmptyStaticInitializer">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/finalizers.xml/FinalizeDoesNotCallSuperFinalize">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/UseStringBufferLength">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/migrating.xml/AvoidEnumAsIdentifier">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/braces.xml/IfElseStmtsMustUseBraces">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/logging-java.xml/SystemPrintln">
+		<priority>3</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/UselessStringValueOf">
+		<priority>4</priority>
+	</rule>
+	<rule ref="rulesets/java/strings.xml/AvoidDuplicateLiterals">
+		<priority>3</priority>
+		<properties>
+			<property name="skipAnnotations" value="true"/>
+		</properties>
+	</rule>
+</ruleset>
+
+
