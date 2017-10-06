@@ -1,6 +1,21 @@
 # Compiled class file
 *.class
 
+### Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### IntelliJ
+*.iml
+*.iws
+.idea/
+# IntelliJ erstellt dieses Verzeichnis in WAR-Modulen mit WAR-Dependencies
+overlays/
+
 # Log file
 *.log
 
